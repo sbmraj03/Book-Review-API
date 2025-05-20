@@ -23,7 +23,7 @@ A RESTful API for managing books, user authentication, and book reviews. Built w
 
    ```
    PORT=5000
-   MONGO_URI=mongodb://0.0.0.0/book-review
+   MONGO_URI=mongodb://localhost:27017
    JWT_SECRET=yourSecretKey
    ```
 
@@ -166,7 +166,7 @@ A RESTful API for managing books, user authentication, and book reviews. Built w
 
 ```
 PORT=5000
-MONGO_URI=mongodb://0.0.0.0/book-review
+MONGO_URI=mongodb://localhost:27017
 JWT_SECRET=yourSecretKey
 ```
 
