@@ -86,7 +86,7 @@ This project uses MongoDB with Mongoose ODM. Below is a brief schema design and 
 ## Simple ER Diagram
 
 ```mermaid
-ERDiagram
+erDiagram
     USER ||--o{ REVIEW : writes
     BOOK ||--o{ REVIEW : receives
     USER {
